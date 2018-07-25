@@ -58,4 +58,6 @@
 (load! "+langs")
 
 ;; load prose tools (includes markdown)
-(load! "+org")
+;(load! "+org")
+;(with-eval-after-load 'intero
+  ;(setq intero-package-version "0.1.31"))
